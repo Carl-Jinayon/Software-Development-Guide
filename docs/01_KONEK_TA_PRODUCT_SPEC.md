@@ -1,7 +1,7 @@
 # Konek'ta — Product and Requirements Specification
 
 **Team:** 2 (me + 1 partner)
-**Stack:** FastAPI + PostgreSQL backend · Kotlin / Jetpack Compose Android client
+**Stack:** FastAPI + PostgreSQL backend · Flutter (Dart) client (Android first) · Figma for design
 **Source idea:** [`../Konek'ta.txt`](../Konek'ta.txt)
 **Status:** Draft v1 — both partners must read and agree before any code is written
 **Last updated:** 2026-10-13
@@ -88,7 +88,7 @@ answer:
 ### Not in scope for this document
 
 - Endpoint-by-endpoint API contract → [`../MY_PLAN/02`](../MY_PLAN/02_MY_APP_PROJECT_SPEC.md) §4, written after this document is agreed
-- Kotlin/Compose UI implementation details
+- Flutter UI implementation details
 - CI/CD, deployment, hosting choices
 - Marketing, launch strategy, pricing
 
@@ -2070,7 +2070,7 @@ Brief. The full architecture is in
 and is unchanged by this document — only the domain is different.
 
 ```
-Android (Kotlin / Jetpack Compose)
+Client (Flutter / Dart)
         │  HTTPS + JWT
         ▼
 ┌─────────────────────────────────────┐

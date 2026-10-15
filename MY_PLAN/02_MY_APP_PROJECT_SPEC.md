@@ -1,7 +1,7 @@
 # My App Project Specification
 
 **Team:** 2 (me + 1 partner)
-**Stack:** FastAPI + PostgreSQL backend · Kotlin/Compose Android client
+**Stack:** FastAPI + PostgreSQL backend · Flutter (Dart) client (Android first) · Figma for design
 **Status:** To be filled in — this is the document we both code against
 
 ---
@@ -23,9 +23,9 @@ This document is the contract. **Both of us code against it. Changes go through 
 ```
 MY HALF                              PARTNER'S HALF
 ────────                             ─────────────
-FastAPI service                      Kotlin + Jetpack Compose
+FastAPI service                      Flutter (Dart) client
 PostgreSQL + migrations              Screens, navigation, state
-Business logic (pure, testable)      Retrofit API integration
+Business logic (pure, testable)      API integration (Dio/http)
 Authentication, authorisation        Local caching
 Tests, CI, deployment                Error and loading states
 ML endpoint (Month 5)                Play Store build
@@ -378,7 +378,7 @@ A new user must be studying within 60 seconds of opening the app. If they must s
 ## 7. Architecture
 
 ```
-Android (Kotlin/Compose)
+Client (Flutter/Dart)
         │
         │  HTTPS + JWT
         ▼

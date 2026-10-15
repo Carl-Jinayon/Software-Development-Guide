@@ -973,7 +973,7 @@ Next review: YYYY-MM-DD
 | Backend | Python 3.12, FastAPI | Type hints, async, fast to build correctly |
 | Database | PostgreSQL 16 | Relational data, ACID, mature tooling |
 | Auth | JWT + Argon2id | Stateless API, memory-hard hashing |
-| Frontend | Kotlin, Jetpack Compose | Native Android experience |
+| Frontend | Flutter (Dart) | Cross-platform client from one codebase; Android first |
 | CI/CD | GitHub Actions | Free, integrated with GitHub |
 | Deployment | Render + Neon | Managed, minimal operational burden |
 

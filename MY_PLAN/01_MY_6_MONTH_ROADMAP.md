@@ -16,7 +16,7 @@
 | **Secondary target** | **Cybersecurity** |
 | **Tertiary** | Machine learning / AI (harder to break into, so lower priority) |
 | **Main language** | Python |
-| **Side project** | Android app (Kotlin/Compose), 2 people, may become the thesis |
+| **Side project** | Flutter client app, 2 people, may become the thesis |
 | **Hardware** | No Mac → **iOS is off the table** |
 | **Current state** | Has written small school projects. No production experience. Counts self as a beginner |
 
@@ -206,7 +206,7 @@ def test_my_binary_search_matches_bisect():
 
 | Week | Focus | Deliverable |
 |---|---|---|
-| 17 | Android: Kotlin syntax, Jetpack Compose, connecting to my API with Retrofit | A working screen reading from my backend |
+| 17 | Flutter: Dart syntax, widgets, state mgmt, connecting to my API with http/Dio + Figma handoff | A working screen reading from my backend |
 | 18 | Finish the client: screens, navigation, error states, loading states, offline handling | A usable app |
 | 19 | ML: NumPy, pandas, scikit-learn. Train a classifier on a public dataset | A baseline model with proper evaluation |
 | 20 | Serve the model through my FastAPI backend. Deploy. **START INTERNSHIP APPLICATIONS.** | A deployed ML endpoint |
